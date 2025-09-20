@@ -272,7 +272,7 @@ html {
 .home_outdoor {
   width: 100%;
   height: auto;
-  padding: 0rem 8rem;
+  padding: 2rem 8rem 0 8rem;
   background-color: var(--main-background_color);
 }
 .home_outdoor_inner {
@@ -289,10 +289,18 @@ html {
   height: 100%;
   background-image: url(./assets/Image/backgrounds/Group\ 969.png);
   background-size: cover;
-  padding: 1rem;
+  padding: 2rem;
+}
+.h_o_left_second {
+  width: 25%;
+  height: 100%;
+  background-image: url(./assets/Image/backgrounds/image\ 98.png);
+  background-size: cover;
+  padding: 2rem;
 }
 .h_o_h3 {
   font-size: 2rem;
+  margin-bottom: 2rem;
 }
 .h_o_btn {
   width: 13rem;
@@ -344,6 +352,121 @@ html {
 .h_o_right_item_img {
   margin-top: 2rem;
 }
+/* supplier style */
+.supplier {
+  padding: 2rem 8rem;
+  width: 100%;
+  height: auto;
+  background-color: var(--main-background_color);
+}
+.supplier_inner {
+  background-image: url(./assets/Image/backgrounds/Group\ 982.png);
+  background-size: cover;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  height: auto;
+  padding: 2rem;
+}
+.supplier_left {
+  width: 40%;
+}
+.supplier_left h2 {
+  font-size: 3.2rem;
+  color: var(--btn-text-color);
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+}
+.supplier_left p {
+  font-size: 1.6rem;
+  color: var(--btn-text-color);
+  letter-spacing: 1px;
+}
+.supplier_right {
+  width: 50%;
+  height: auto;
+  background-color: var(--btn-text-color);
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 2rem;
+}
+.supplier_form_heading {
+  width: 100%;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.supplier_input1 {
+  width: 100%;
+  height: 4rem;
+  border-radius: 1rem;
+  border: 2px solid var(--light-text-color);
+  color: var(--light-text-color);
+  outline: none;
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+.supplier_input1:focus {
+  border-color: var(--light-text-color);
+}
+.supplier_msg_input {
+  width: 100%;
+  height: 8rem;
+}
+.supplier_form_btn {
+  width: 12.8rem;
+  height: 4rem;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  border: none;
+  background-color: var(--main-color);
+  color: var(--btn-text-color);
+}
+/* recommended style */
+.recommended {
+  padding: 2rem 8rem;
+  background-color: var(--main-background_color);
+}
+.recommended_item_heading {
+  font-size: 2.4rem;
+}
+.r_bottom {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+}
+.r_b_item {
+  width: 22rem;
+  height: 31rem;
+  padding: 2rem;
+  background-color: var(--btn-text-color);
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.r_b_item_img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+.r_b_item_price {
+  font-size: 1.6rem;
+  color: var(--main-text-color);
+  margin-bottom: 1rem;
+}
+.r_b_item_details {
+  font-size: 1.6rem;
+  color: var(--light-text-color);
+}
 /* responsive style  */
 @media (width<1120px) {
   .deals_offer_inner {
@@ -384,12 +507,17 @@ html {
     background-color: transparent;
     border: none;
     color: var(--main-color);
+    cursor: pointer;
   }
   .h_o_h3 {
     font-size: 2.5rem;
+    margin: 0;
   }
   .home_outdoor_inner {
     height: auto;
+  }
+  .r_bottom {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 }
 @media (width<1065px) {
@@ -460,6 +588,19 @@ html {
   }
   .home_outdoor {
     padding: 0rem 5rem;
+  }
+  .supplier {
+    padding: 2rem 5rem;
+  }
+  .supplier_inner {
+    display: block;
+  }
+  .supplier_left {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .supplier_right {
+    width: 100%;
   }
 }
 @media (width<735px) {
@@ -541,5 +682,15 @@ html {
   }
   .h_o_h3 {
     font-size: 2rem;
+  }
+  .supplier {
+    padding: 2rem 0rem;
+  }
+  .supplier_inner {
+    border-radius: 0rem;
+    padding: 1rem;
+  }
+  .supplier_right {
+    padding: 1rem;
   }
 }
