@@ -272,7 +272,7 @@ html {
 .home_outdoor {
   width: 100%;
   height: auto;
-  padding: 2rem 8rem;
+  padding: 0rem 8rem;
   background-color: var(--main-background_color);
 }
 .home_outdoor_inner {
@@ -289,11 +289,10 @@ html {
   height: 100%;
   background-image: url(./assets/Image/backgrounds/Group\ 969.png);
   background-size: cover;
-  padding: 2rem;
+  padding: 1rem;
 }
 .h_o_h3 {
   font-size: 2rem;
-  margin-bottom: 2rem;
 }
 .h_o_btn {
   width: 13rem;
@@ -376,7 +375,7 @@ html {
     width: 100%;
     height: auto;
     background-image: none;
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -460,7 +459,7 @@ html {
     padding: 0 5rem;
   }
   .home_outdoor {
-    padding: 4rem 5rem;
+    padding: 0rem 5rem;
   }
 }
 @media (width<735px) {
@@ -532,7 +531,7 @@ html {
     aspect-ratio: 1;
   }
   .home_outdoor {
-    padding: 2rem 0rem;
+    padding: 0rem 0rem;
   }
   .h_o_left {
     padding: 1rem;
@@ -541,6 +540,6 @@ html {
     grid-template-columns: repeat(2, 1fr);
   }
   .h_o_h3 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 }
