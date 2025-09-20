@@ -267,6 +267,84 @@ html {
 .d_o_r_last {
   border: none;
 }
+/* home nd outdoor style */
+
+.home_outdoor {
+  width: 100%;
+  height: auto;
+  padding: 2rem 8rem;
+  background-color: var(--main-background_color);
+}
+.home_outdoor_inner {
+  width: 100%;
+  height: 25rem;
+  background-color: var(--btn-text-color);
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  display: flex;
+}
+.h_o_left {
+  width: 25%;
+  height: 100%;
+  background-image: url(./assets/Image/backgrounds/Group\ 969.png);
+  background-size: cover;
+  padding: 2rem;
+}
+.h_o_h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.h_o_btn {
+  width: 13rem;
+  height: 4rem;
+  background-color: var(--btn-text-color);
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+.h_o_right_arrow {
+  display: none;
+  margin-left: 0.5rem;
+}
+.h_o_right {
+  width: 75%;
+  border-radius: 1rem;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.h_o_right_item {
+  /* width: 22.3rem;
+  height: 12.5rem; */
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  /* border-left: 1px solid rgba(27, 31, 35, 0.15);
+  border-bottom: 1px solid rgba(27, 31, 35, 0.15); */
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  background-color: var(--btn-text-color);
+}
+.h_o_right_item_bottom {
+  /* border-right: 1px solid rgba(27, 31, 35, 0.15); */
+  /* border-bottom: none;
+  border-left: none; */
+}
+/* .h_o_right_extra {
+  border: none;
+} */
+.h_o_right_p1 {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+}
+.h_o_right_p2 {
+  font-size: 1.3rem;
+  color: var(--light-text-color);
+}
+.h_o_right_item_img {
+  margin-top: 2rem;
+}
 /* responsive style  */
 @media (width<1120px) {
   .deals_offer_inner {
@@ -277,12 +355,42 @@ html {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 1rem;
   }
   .deals_offer_right {
     width: 100%;
     flex-wrap: wrap;
     gap: 1rem;
+  }
+  .h_o_right {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    width: 100%;
+  }
+  .home_outdoor_inner {
+    display: block;
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .h_o_left {
+    width: 100%;
+    height: auto;
+    background-image: none;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .h_o_btn {
+    background-color: transparent;
+    border: none;
+    color: var(--main-color);
+  }
+  .h_o_h3 {
+    font-size: 2.5rem;
+  }
+  .home_outdoor_inner {
+    height: auto;
   }
 }
 @media (width<1065px) {
@@ -350,6 +458,9 @@ html {
   }
   .deals_offer {
     padding: 0 5rem;
+  }
+  .home_outdoor {
+    padding: 4rem 5rem;
   }
 }
 @media (width<735px) {
@@ -419,5 +530,17 @@ html {
   .d_o_r_common_img {
     width: 12rem;
     aspect-ratio: 1;
+  }
+  .home_outdoor {
+    padding: 2rem 0rem;
+  }
+  .h_o_left {
+    padding: 1rem;
+  }
+  .main_right {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .h_o_h3 {
+    font-size: 1.8rem;
   }
 }
