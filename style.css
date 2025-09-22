@@ -196,6 +196,7 @@ html {
 }
 .deals_offer_left {
   width: 25%;
+  height: 100%;
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
@@ -205,6 +206,7 @@ html {
 .d_o_l_date {
   display: flex;
   gap: 0.5rem;
+  margin-top: 2rem;
 }
 .d_o_l_h3 {
   font-size: 2rem;
@@ -507,6 +509,9 @@ html {
   }
   .r_bottom {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .d_o_l_date {
+    margin-top: 0rem;
   }
 }
 @media (width<1065px) {
