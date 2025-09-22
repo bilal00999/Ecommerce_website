@@ -191,6 +191,7 @@ html {
   width: 100%;
   height: 24rem;
   display: flex;
+  align-items: center;
   border-radius: 1rem;
 }
 .deals_offer_left {
@@ -200,9 +201,6 @@ html {
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   background-color: var(--btn-text-color);
-}
-.d_o_l_headings {
-  margin-bottom: 2rem;
 }
 .d_o_l_date {
   display: flex;
@@ -323,24 +321,12 @@ html {
   grid-template-columns: repeat(4, 1fr);
 }
 .h_o_right_item {
-  /* width: 22.3rem;
-  height: 12.5rem; */
   padding: 1rem;
   display: flex;
   justify-content: space-between;
-  /* border-left: 1px solid rgba(27, 31, 35, 0.15);
-  border-bottom: 1px solid rgba(27, 31, 35, 0.15); */
   border: 1px solid rgba(27, 31, 35, 0.15);
   background-color: var(--btn-text-color);
 }
-.h_o_right_item_bottom {
-  /* border-right: 1px solid rgba(27, 31, 35, 0.15); */
-  /* border-bottom: none;
-  border-left: none; */
-}
-/* .h_o_right_extra {
-  border: none;
-} */
 .h_o_right_p1 {
   font-size: 1.6rem;
   margin-bottom: 1.5rem;
@@ -442,8 +428,6 @@ html {
   width: 100%;
   height: auto;
   margin-top: 2rem;
-  /* display: grid;
-  grid-template-columns: repeat(5, 1fr); */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
