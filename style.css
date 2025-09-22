@@ -386,6 +386,7 @@ html {
   font-size: 1.6rem;
   color: var(--btn-text-color);
   letter-spacing: 1px;
+  line-height: 1.5;
 }
 .supplier_right {
   width: 50%;
@@ -435,13 +436,17 @@ html {
 }
 .recommended_item_heading {
   font-size: 2.4rem;
+  padding-left: 1rem;
 }
 .r_bottom {
   width: 100%;
   height: auto;
   margin-top: 2rem;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  /* display: grid;
+  grid-template-columns: repeat(5, 1fr); */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
 }
 .r_b_item {
@@ -454,8 +459,8 @@ html {
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 .r_b_item_img {
-  width: 100%;
-  height: auto;
+  width: 18rem;
+  aspect-ratio: 1;
   margin-bottom: 2rem;
 }
 .r_b_item_price {
@@ -546,6 +551,18 @@ html {
     height: 19rem;
   }
 }
+@media (width<1034px) {
+  .r_b_item {
+    width: 19rem;
+    height: 30rem;
+    padding: 2rem;
+  }
+  .r_b_item_img {
+    width: 16rem;
+    aspect-ratio: 1;
+    margin-bottom: 2rem;
+  }
+}
 @media (width<768px) {
   .header {
     display: flex;
@@ -602,6 +619,19 @@ html {
   .supplier_right {
     width: 100%;
   }
+  .r_b_item {
+    width: 17rem;
+    height: 27rem;
+    padding: 2rem;
+  }
+  .r_b_item_img {
+    width: 13rem;
+    aspect-ratio: 1;
+    margin-bottom: 2rem;
+  }
+  .recommended {
+    padding: 2rem 4rem;
+  }
 }
 @media (width<735px) {
   .main_right_2 {
@@ -609,6 +639,20 @@ html {
   }
   .main_right_3 {
     height: 10rem;
+  }
+}
+@media (width<645px) {
+  .r_b_item {
+    width: 14rem;
+    height: 26rem;
+  }
+  .r_bottom {
+    gap: 1rem;
+  }
+  .r_b_item_img {
+    width: 10rem;
+    aspect-ratio: 1;
+    margin-bottom: 2rem;
   }
 }
 @media (width<576px) {
@@ -687,10 +731,27 @@ html {
     padding: 2rem 0rem;
   }
   .supplier_inner {
-    border-radius: 0rem;
+    /* border-radius: 0rem; */
     padding: 1rem;
   }
   .supplier_right {
     padding: 1rem;
+  }
+  .recommended {
+    padding: 2rem 0rem;
+  }
+}
+@media (width<454px) {
+  .r_b_item {
+    width: 15.5rem;
+    height: 26rem;
+  }
+  .r_bottom {
+    gap: 1rem;
+  }
+  .r_b_item_img {
+    width: 12rem;
+    aspect-ratio: 1;
+    margin-bottom: 2rem;
   }
 }
