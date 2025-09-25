@@ -727,7 +727,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
-    justify-content: flex-start;
+    justify-content: space-between;
   }
   .footer_left {
     margin-left: 1rem;
@@ -737,7 +737,7 @@ html {
     flex-wrap: wrap;
   }
   .footer_right {
-    margin-left: 1rem;
+    display: none;
   }
 }
 @media (width<1065px) {
@@ -758,7 +758,6 @@ html {
     gap: 2rem;
     width: 100%;
   }
-
   .main_right_2 {
     height: 19rem;
   }
@@ -986,6 +985,12 @@ html {
   }
   .footer {
     padding: 2rem 1rem;
+  }
+  .footer_middle {
+    gap: 5rem;
+  }
+  .f_m_common {
+    width: 10rem;
   }
 }
 @media (width<454px) {
