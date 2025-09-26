@@ -640,6 +640,13 @@ html {
   color: var(--light-text-color);
   line-height: 1.5;
 }
+.f_m_common_para a {
+  text-decoration: none;
+  color: var(--light-text-color);
+}
+.f_m_common_para:hover {
+  text-decoration: underline;
+}
 .f_l_logo {
   margin-bottom: 1rem;
 }
