@@ -73,6 +73,243 @@
     </nav>
     <!-- navbar -->
 
+    <!-- weblist view navbar -->
+    <nav class="weblist_navbar">
+      <ul class="weblist_nav_ul">
+        <li class="weblist_nav_li">
+          <a href="">Home</a><i class="fa-solid fa-chevron-right"></i>
+        </li>
+        <li class="weblist_nav_li">
+          <a href="">Clothing</a><i class="fa-solid fa-chevron-right"></i>
+        </li>
+        <li class="weblist_nav_li">
+          <a href="">Men's wear</a><i class="fa-solid fa-chevron-right"></i>
+        </li>
+        <li class="weblist_nav_li"><a href="">Summer clothing</a></li>
+      </ul>
+    </nav>
+    <!-- weblist view navbar -->
+
+    <!-- weblist view main -->
+    <main class="weblist_view_mian">
+      <div class="weblist_view_inner">
+        <div class="weblist_view_left">
+          <!-- category -->
+          <div class="w_l_category w_l_common_navs">
+            <div class="w_l_common_head">
+              <p class="w_l_common_p">Category</p>
+              <span class="w_l_chevron_up"
+                ><i class="fa-solid fa-chevron-up chevron_up"></i
+              ></span>
+            </div>
+            <div class="w_l_common_list">
+              <p class="w_l_common_para"><a href="">Mobile accessory</a></p>
+              <p class="w_l_common_para"><a href="">Electronics</a></p>
+              <p class="w_l_common_para"><a href="">Smartphones</a></p>
+              <p class="w_l_common_para"><a href="">Mobile tech</a></p>
+            </div>
+          </div>
+          <!-- category -->
+
+          <!-- brands-->
+          <div class="w_l_category w_l_common_navs">
+            <div class="w_l_common_head">
+              <p class="w_l_common_p">Brands</p>
+              <span class="w_l_chevron_up"
+                ><i class="fa-solid fa-chevron-up chevron_up"></i
+              ></span>
+            </div>
+            <div class="w_l_common_list">
+              <div class="brand_item_common">
+                <input
+                  type="checkbox"
+                  id="samsung"
+                  value="samsung"
+                  name="brand"
+                />
+                <label for="samsung">Samsung</label>
+              </div>
+
+              <div class="brand_item_common">
+                <input type="checkbox" id="apple" value="apple" name="brand" />
+                <label for="apple">Apple</label>
+              </div>
+
+              <div class="brand_item_common">
+                <input type="checkbox" id="pocco" value="pocco" name="brand" />
+                <label for="pocco">Pocco</label>
+              </div>
+
+              <div class="brand_item_common">
+                <input
+                  type="checkbox"
+                  id="huawei"
+                  value="huawei"
+                  name="brand"
+                />
+                <label for="huawei">Huawei</label>
+              </div>
+            </div>
+          </div>
+          <!-- brands-->
+
+          <!-- features-->
+          <div class="w_l_category w_l_common_navs">
+            <div class="w_l_common_head">
+              <p class="w_l_common_p">Features</p>
+              <span class="w_l_chevron_up"
+                ><i class="fa-solid fa-chevron-up chevron_up"></i
+              ></span>
+            </div>
+            <div class="w_l_common_list">
+              <div class="brand_item_common">
+                <input
+                  type="checkbox"
+                  id="metallic"
+                  value="metallic"
+                  name="features"
+                />
+                <label for="metallic">Metallic</label>
+              </div>
+
+              <div class="brand_item_common">
+                <input
+                  type="checkbox"
+                  id="plastic_cover"
+                  value="plastic_cover"
+                  name="features"
+                />
+                <label for="plastic_cover">Plastic cover</label>
+              </div>
+
+              <div class="brand_item_common">
+                <input
+                  type="checkbox"
+                  id="super_power"
+                  value="super_power"
+                  name="features"
+                />
+                <label for="super_power">Super power</label>
+              </div>
+
+              <div class="brand_item_common">
+                <input type="checkbox" id="Ram" value="Ram" name="features" />
+                <label for="Ram">8Gb Ram</label>
+              </div>
+            </div>
+          </div>
+          <!-- features-->
+
+          <!-- price range -->
+          <div class="w_l_category w_l_common_navs">
+            <div class="w_l_common_head">
+              <p class="w_l_common_p">Price range</p>
+              <span class="w_l_chevron_up"
+                ><i class="fa-solid fa-chevron-up chevron_up"></i
+              ></span>
+            </div>
+            <div class="w_l_common_list">
+              <div class="price_slider">
+                <input
+                  type="range"
+                  name="price_range_slider"
+                  id="price_range_slider"
+                  min="0"
+                  max="99999"
+                />
+              </div>
+              <div class="price_range_inputs">
+                <div class="min_input">
+                  <label for="min_price">Min</label>
+                  <input
+                    type="number"
+                    id="min_price"
+                    name="min_price"
+                    value="0"
+                    min="0"
+                    max="99999"
+                  />
+                </div>
+                <div class="max_input">
+                  <label for="max_price">Max</label>
+                  <input
+                    type="number"
+                    id="max_price"
+                    name="max_price"
+                    value="0"
+                    min="0"
+                    max="99999"
+                  />
+                </div>
+              </div>
+              <button class="p_r_apply_btn">Apply</button>
+            </div>
+          </div>
+          <!-- price range -->
+
+          <!-- rating -->
+
+          <div class="w_l_category w_l_common_navs">
+            <div class="w_l_common_head">
+              <p class="w_l_common_p">Category</p>
+              <span class="w_l_chevron_up"
+                ><i class="fa-solid fa-chevron-up chevron_up"></i
+              ></span>
+            </div>
+            <form class="w_l_common_list">
+              <div class="rating-option">
+                <input type="checkbox" id="rating-5" name="rating" value="5" />
+                <label for="rating-5">
+                  <span class="stars" data-rating="5">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </label>
+              </div>
+
+              <div class="rating-option">
+                <input type="checkbox" id="rating-4" name="rating" value="4" />
+                <label for="rating-4">
+                  <span class="stars" data-rating="4">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </label>
+              </div>
+
+              <div class="rating-option">
+                <input type="checkbox" id="rating-3" name="rating" value="3" />
+                <label for="rating-3">
+                  <span class="stars" data-rating="3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </label>
+              </div>
+
+              <div class="rating-option">
+                <input type="checkbox" id="rating-2" name="rating" value="2" />
+                <label for="rating-2">
+                  <span class="stars" data-rating="2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </label>
+              </div>
+            </form>
+          </div>
+          <!-- rating -->
+        </div>
+        <div class="weblist_view_right"></div>
+      </div>
+    </main>
+
     <!-- footer -->
     <footer class="footer">
       <div class="footer_inner">
@@ -150,6 +387,6 @@
     </footer>
     <!-- footer -->
 
-    <script src="app.js"></script>
+    <script type="module" src="app.js"></script>
   </body>
 </html>

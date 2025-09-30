@@ -734,6 +734,231 @@ html {
   }
 }
 /* news letter form submit message style */
+
+/* weblistview page style */
+.weblist_navbar {
+  width: 100%;
+  height: 6.4rem;
+  padding: 2rem 8rem;
+  background-color: var(--main-background_color);
+}
+.weblist_nav_ul {
+  display: flex;
+  gap: 2rem;
+}
+.weblist_nav_li {
+  list-style: none;
+  color: var(--light-text-color);
+}
+.weblist_nav_li a {
+  text-decoration: none;
+  color: var(--light-text-color);
+  font-size: 1.6rem;
+  display: inline-block;
+}
+.weblist_nav_li i {
+  margin: 0 0 0 0.5rem;
+}
+/* weblist main */
+.weblist_view_mian {
+  width: 100%;
+  height: auto;
+  background-color: var(--main-background_color);
+  padding: 2rem 8rem;
+}
+.weblist_view_left {
+  width: 20%;
+  height: auto;
+}
+.w_l_common_navs {
+  width: 100%;
+  height: auto;
+  border-top: 1px solid var(--light-text-color);
+}
+.w_l_common_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0 2rem 0;
+}
+.w_l_common_list {
+  width: 100%;
+}
+.w_l_common_p {
+  font-size: 1.6rem;
+  color: var(--heading-text-color);
+}
+.w_l_chevron_up {
+  font-size: 1.1rem;
+  color: var(--light-text-color);
+  cursor: pointer;
+}
+.w_l_common_para {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.w_l_common_para a {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+.brand_item_common {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+.brand_item_common label {
+  font-size: 1.6rem;
+  color: var(--main-text-color);
+}
+.price_slider {
+  margin-bottom: 1rem;
+}
+.price_slider input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 12px;
+  background: transparent;
+  margin: 10px 0;
+}
+
+.price_slider input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 4px;
+  cursor: pointer;
+  background: #d3d3d3;
+  border-radius: 2px;
+}
+
+.price_slider input[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 4px;
+  cursor: pointer;
+  background: #d3d3d3;
+  border-radius: 2px;
+}
+.price_slider input[type="range"]::-ms-track {
+  width: 100%;
+  height: 4px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+.price_slider input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #007bff;
+  cursor: pointer;
+  margin-top: -6px;
+}
+
+.price_slider input[type="range"]::-moz-range-thumb {
+  height: 16px;
+  width: 16px;
+  border: none;
+  border-radius: 50%;
+  background: #007bff;
+  cursor: pointer;
+}
+
+.price_slider input[type="range"]::-ms-thumb {
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #007bff;
+  cursor: pointer;
+}
+.weblist_view_right {
+  width: 75%;
+}
+.price_range_inputs {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+.min_input {
+  width: 100%;
+}
+.max_input {
+  width: 100%;
+}
+.min_input label {
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: var(--main-text-color);
+}
+.min_input input {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.6rem;
+  opacity: 0.7;
+  border: 2px solid rgb(216, 215, 215);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.max_input label {
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: var(--main-text-color);
+}
+.max_input input {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.6rem;
+  opacity: 0.7;
+  border: 2px solid rgb(216, 215, 215);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.p_r_apply_btn {
+  width: 100%;
+  height: 4rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+  margin: 1rem 0 1rem 0;
+  background-color: var(--btn-text-color);
+  border-radius: 1rem;
+  color: var(--main-color);
+  border: 2px solid rgb(216, 215, 215);
+}
+.stars {
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  color: #ccc;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.stars i {
+  color: #ff9017;
+}
+
+.rating-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.rating-option input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.rating-option label {
+  cursor: pointer;
+}
+.chevron_down {
+  rotate: 180deg;
+}
+/* weblistview page style */
 /* responsive style  */
 @media (width<1120px) {
   .deals_offer_inner {
@@ -930,6 +1155,10 @@ html {
   .home_navbar {
     padding: 2rem 5rem;
   }
+  /* weblist view responsive */
+  .weblist_navbar {
+    padding: 2rem 5rem;
+  }
 }
 @media (width<735px) {
   .main_right_2 {
@@ -1067,6 +1296,17 @@ html {
   .navbar_ul {
     justify-content: center;
     gap: 2rem;
+  }
+  /* weblist view responsive */
+  .weblist_navbar {
+    padding: 2rem 0rem;
+  }
+  .weblist_nav_ul {
+    justify-content: center;
+    gap: 1.2rem;
+  }
+  .weblist_nav_li i {
+    display: none;
   }
 }
 @media (width<454px) {
