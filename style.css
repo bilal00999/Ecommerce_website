@@ -710,9 +710,11 @@ html {
 /* news letter form submit message style */
 .s_n_form_msg {
   width: 20rem;
-  height: 5rem;
+  height: 4rem;
+  background-color: var(--btn-text-color);
   padding: 1rem;
-  border: 2px solid rgb(72, 241, 72);
+  border: 2px solid rgb(119, 248, 119);
+  border-radius: 1rem;
   place-self: center;
   transform: translateY(-10rem);
   animation: formsubscribe 2s ease-in-out;
@@ -765,6 +767,10 @@ html {
   height: auto;
   background-color: var(--main-background_color);
   padding: 2rem 8rem;
+}
+.weblist_view_inner {
+  display: flex;
+  gap: 3rem;
 }
 .weblist_view_left {
   width: 20%;
@@ -873,9 +879,6 @@ html {
   background: #007bff;
   cursor: pointer;
 }
-.weblist_view_right {
-  width: 75%;
-}
 .price_range_inputs {
   display: flex;
   align-items: center;
@@ -958,6 +961,77 @@ html {
 .chevron_down {
   rotate: 180deg;
 }
+/* weblist right style */
+.weblist_view_right {
+  width: 75%;
+}
+.w_l_right_header {
+  width: 100%;
+  height: auto;
+  background-color: var(--btn-text-color);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.w_l_r_h_left_p {
+  font-size: 1.6rem;
+  color: var(--main-text-color);
+}
+.w_l_r_h_right {
+  display: flex;
+  gap: 1rem;
+}
+.list_view {
+  width: 4rem;
+  height: 4rem;
+  border: 2px solid rgb(216, 215, 215);
+  border-radius: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+.list_view i {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  font-size: 1.8rem;
+}
+.grid_view {
+  width: 4rem;
+  height: 4rem;
+  border: 2px solid rgb(216, 215, 215);
+  border-radius: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+.grid_view i {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  font-size: 1.8rem;
+}
+
+/* weblist item style */
+.w_l_item {
+  width: 100%;
+  height: 23rem;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  background-color: var(--btn-text-color);
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin: 2rem 0;
+}
+.w_l_item_left img {
+  width: 21rem;
+  aspect-ratio: 1;
+}
+
 /* weblistview page style */
 /* responsive style  */
 @media (width<1120px) {
@@ -1159,6 +1233,12 @@ html {
   .weblist_navbar {
     padding: 2rem 5rem;
   }
+  .weblist_view_mian {
+    padding: 2rem 5rem;
+  }
+  .weblist_view_left {
+    width: 16rem;
+  }
 }
 @media (width<735px) {
   .main_right_2 {
@@ -1307,6 +1387,9 @@ html {
   }
   .weblist_nav_li i {
     display: none;
+  }
+  .weblist_view_mian {
+    padding: 2rem 1rem;
   }
 }
 @media (width<454px) {

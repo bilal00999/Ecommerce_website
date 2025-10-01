@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Iphone 17",
+    "price": "$799.99",
+    "orders": 120,
+    "shipping": "Free shipping",
+    "description": "iPhone 17 features a powerful chip, advanced camera system, sleek design, and long battery life for daily use."
+  },
+  {
+    "id": 2,
+    "name": "Iphone 17 pro",
+    "price": "1099.99$",
+    "orders": 120,
+    "shipping": "Free shipping",
+    "description": "iPhone 17 Pro delivers stunning performance, pro-level cameras, immersive display, and all-day battery life with premium design."
+  },
+  {
+    "id": 3,
+    "name": "Huawei Mate XT",
+    "price": "200$",
+    "orders": 120,
+    "shipping": "Free shipping",
+    "description": "Huawei Mate XT combines cutting-edge foldable technology, sleek build, strong performance, and immersive display for next-generation mobile experiences."
+  },
+  {
+    "id": 4,
+    "name": "Huawei Nova 12i",
+    "price": "$2810.99",
+    "orders": 120,
+    "shipping": "Free shipping",
+    "description": "Huawei Nova 12i offers stylish design, smooth performance, advanced cameras, and long-lasting battery perfect for everyday smartphone users."
+  },
+  {
+    "id": 5,
+    "name": "Poco M3",
+    "price": "$278.99",
+    "orders": 120,
+    "shipping": "Free shipping",
+    "description": "Poco M3 features bold design, reliable battery, crisp display, and smooth performance, making it ideal for budget-friendly smartphone seekers."
+  },
+  {
+    "id": 6,
+    "name": "Poco X5",
+    "price": "$200",
+    "orders": 120,
+    "shipping": "Free shipping",
+    "description": "Poco X5 delivers fast performance, vibrant display, 5G connectivity, and advanced features, ensuring an efficient smartphone experience every day."
+  },
+  {
+    "id": 7,
+    "name": "Samsung S24 Ultra",
+    "price": "$1299.99",
+    "orders": 120,
+    "shipping": "Free shipping",
+    "description": "Samsung S24 Ultra redefines flagship smartphones with pro-level cameras, dynamic display, advanced performance, and enduring battery for professionals."
+  },
+  {
+    "id": 8,
+    "name": "Samsung Z Fold 6",
+    "price": "$1899.99",
+    "orders": 120,
+    "shipping": "Free shipping",
+    "description": "Samsung Z Fold 6 blends foldable innovation, multitasking power, immersive screens, and seamless design for premium next-generation mobile productivity."
+  },
+  {
+    "id": 9,
+    "name": "Samsung Z Flip 7",
+    "price": "$947.99",
+    "orders": 120,
+    "shipping": "Free shipping",
+    "description": "Samsung Z Flip 7 offers stylish foldable design, upgraded cameras, smooth performance, and compact portability for modern, trend-focused smartphone users."
+  }
+]
