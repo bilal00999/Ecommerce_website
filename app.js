@@ -1,4 +1,5 @@
 import { weblistDropdown } from "./weblistDropdown.js";
+// import { weblistproducts } from "./weblistproducts.json";
 let chevrons = document.querySelectorAll(".chevron_up");
 // call weblist dropdown
 chevrons.forEach((chevron) => {
@@ -26,3 +27,25 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+// document.addEventListener("DOMContentLoaded", () => {
+let user_teamplate = document.querySelector("#user_template");
+let container = document.querySelector(".w_l_items");
+
+fetch("weblistproducts.json")
+  .then((response) => response.json())
+  .then((data) => {
+    data.forEach((user) => {
+      const clone = user_teamplate.content.cloneNode(true);
+
+      clone.querySelector(".w_l_i_l_img").src = user.src;
+      clone.querySelector(".item_name").innerHTML = user.name;
+      clone.querySelector(".item_price").innerHTML = user.price;
+      clone.querySelector(".item_description").innerHTML = user.description;
+      clone.querySelector(".item_orders").innerHTML = `${user.orders} orders`;
+
+      container.appendChild(clone);
+    });
+  })
+  .catch((error) => console.error("Error loading JSON:", error));
+// });

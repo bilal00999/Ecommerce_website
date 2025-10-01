@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "src": "./assets/weblistview page/mobile images/iphone17pro-removebg-preview.png",
     "name": "Iphone 17",
     "price": "$799.99",
     "orders": 120,
@@ -10,6 +11,7 @@
   {
     "id": 2,
     "name": "Iphone 17 pro",
+    "src": "./assets/weblistview page/mobile images/iphone17-removebg-preview.png",
     "price": "1099.99$",
     "orders": 120,
     "shipping": "Free shipping",
@@ -18,6 +20,7 @@
   {
     "id": 3,
     "name": "Huawei Mate XT",
+    "src": "./assets/weblistview page/mobile images/huawei_mate_xt-removebg-preview.png",
     "price": "200$",
     "orders": 120,
     "shipping": "Free shipping",
@@ -26,6 +29,7 @@
   {
     "id": 4,
     "name": "Huawei Nova 12i",
+    "src": "./assets/weblistview page/mobile images/Huawei-nova-12i-removebg-preview.png",
     "price": "$2810.99",
     "orders": 120,
     "shipping": "Free shipping",
@@ -34,6 +38,7 @@
   {
     "id": 5,
     "name": "Poco M3",
+    "src": "./assets/weblistview page/mobile images/POCO-M3-removebg-preview.png",
     "price": "$278.99",
     "orders": 120,
     "shipping": "Free shipping",
@@ -42,6 +47,7 @@
   {
     "id": 6,
     "name": "Poco X5",
+    "src": "./assets/weblistview page/mobile images/POCO-x5-removebg-preview.png",
     "price": "$200",
     "orders": 120,
     "shipping": "Free shipping",
@@ -50,14 +56,16 @@
   {
     "id": 7,
     "name": "Samsung S24 Ultra",
+    "src": "./assets/weblistview page/mobile images/samsung_s24_ultra-removebg-preview.png",
     "price": "$1299.99",
     "orders": 120,
     "shipping": "Free shipping",
-    "description": "Samsung S24 Ultra redefines flagship smartphones with pro-level cameras, dynamic display, advanced performance, and enduring battery for professionals."
+    "description": "Samsung S24 Ultra redefines flagship smartphones with pro-level cameras, advanced performance, and enduring battery for professionals."
   },
   {
     "id": 8,
     "name": "Samsung Z Fold 6",
+    "src": "./assets/weblistview page/mobile images/Samsung-Galaxy-Z-Fold-6-removebg-preview.png",
     "price": "$1899.99",
     "orders": 120,
     "shipping": "Free shipping",
@@ -66,9 +74,10 @@
   {
     "id": 9,
     "name": "Samsung Z Flip 7",
+    "src": "./assets/weblistview page/mobile images/Samsung-Galaxy-Z-Flip7-removebg-preview.png",
     "price": "$947.99",
     "orders": 120,
     "shipping": "Free shipping",
-    "description": "Samsung Z Flip 7 offers stylish foldable design, upgraded cameras, smooth performance, and compact portability for modern, trend-focused smartphone users."
+    "description": "Samsung Z Flip 7 offers stylish foldable design, upgraded cameras, smooth performance, trend-focused smartphone users."
   }
 ]
