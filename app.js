@@ -28,7 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-// document.addEventListener("DOMContentLoaded", () => {
 let user_teamplate = document.querySelector("#user_template");
 let container = document.querySelector(".w_l_items");
 
@@ -48,4 +47,3 @@ fetch("weblistproducts.json")
     });
   })
   .catch((error) => console.error("Error loading JSON:", error));
-// });
